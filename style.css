@@ -11,18 +11,25 @@
   background-color: #a2ca28;
 }
 .fitness_first .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
   width: 80%;
-  padding-top: 80px;
-  margin: 0 auto;
+  height: 100%;
 }
 .fitness_first .container .row {
   display: flex;
   justify-content: space-between;
   padding-bottom: 70px;
+  padding-top: 80px;
 }
 .fitness_first .container .row .font {
-  width: 250px;
   color: white;
+}
+.fitness_first .container .row .font:not(:last-child) {
+   padding-right: 10px;
 }
 .fitness_first .container .row .font .text {
   margin-bottom: 20px;
@@ -47,35 +54,30 @@
   padding-right: 10px;
   color: white;
 }
-.fitness_first .fitness_inner {
-  height: 470px;
-}
 .fitness_first .fitness_inner .fitness_inner_part1 {
   display: flex;
   text-align: center;
 }
 .fitness_first .fitness_inner .fitness_inner_part1 .fitness_inner_font {
-  background-color: white;
-  height: 470px;
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+  padding-top: 3%;
+  width: 40%;
+}
+.fitness_first .fitness_inner .fitness_inner_part1 .fitness_inner_font > * {
+  margin: 0 auto;
+  width: 80%;
+  line-height: 1.4;
+  font-size: 13px;
+  text-align: center;
 }
 .fitness_first .fitness_inner .fitness_inner_part1 .fitness_inner_font p {
-  color: black;
-  line-height: 1.5;
-  font-size: 17px;
   margin-bottom: 20px;
   margin-top: 20px;
+  font-size:17px;
 }
-.fitness_first .fitness_inner .fitness_inner_part1 .fitness_inner_font .inner {
-  padding-top: 60px;
-  padding-left: 110px;
-  padding-right: 110px;
-}
-.fitness_first
-  .fitness_inner
-  .fitness_inner_part1
-  .fitness_inner_font
-  .inner
-  a {
+
+.fitness_first .fitness_inner .fitness_inner_part1 .fitness_inner_font .inner a {
   color: #a2ca28;
 }
 .fitness_first .fitness_inner .fitness_inner_part1 .fitness_inner_font span {
@@ -83,9 +85,9 @@
   color: #fd634e;
 }
 .fitness_first .fitness_inner .fitness_inner_part1 .fitness_inner_font h3 {
-  color: #a2ca28;
-  font-size: 35px;
-  margin-top: 13px;
+  color: #a2ca29;
+  font-size: 30px;
+  text-transform: uppercase;
   margin-bottom: 20px;
 }
 .fitness_img_part .active {
@@ -99,7 +101,6 @@
   align-items: center;
   justify-content: space-between;
 }
-
 .fitness_img_part .active_font_img h4 {
   color: #fd634e;
   padding-right: 5px;
@@ -132,8 +133,9 @@
 }
 
 .fitness_img_part .active .main_img {
-  width: 1000px;
-  height: 470px;
+  max-width: 100%;
+  display: block;
+  height: auto;
 }
 /* section 3 Mike */
 .conatiner-mike {
