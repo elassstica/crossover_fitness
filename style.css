@@ -5,3 +5,108 @@
 /* section 3 Mike */
 
 /* section 4 Niklas */
+
+.background-color {
+  background-color: #fe634e;
+  z-index: 0;
+}
+
+.footer {
+  background-image: url("/images/footer.png");
+  background-size: cover;
+  height: 200vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+.text-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-top: 250px;
+}
+
+.text-one h1 {
+  font-size: 45px;
+}
+
+.text-one p {
+  font-size: 14px;
+}
+
+.navigation {
+  margin-top: 100vh;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ressources {
+  width: 20vw;
+  padding-left: 10vw;
+}
+.ressources h2 {
+  font-size: 15px;
+}
+.ressources p {
+  font-size: 14px;
+}
+
+.aboutus {
+  width: 30vw;
+}
+.aboutus h2 {
+  font-size: 15px;
+}
+.aboutus p {
+  font-size: 14px;
+}
+
+.stayintouch {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 20vw;
+  padding-right: 10vw;
+}
+.stayintouch h2 {
+  font-size: 15px;
+}
+
+.icon-container {
+  display: flex;
+  list-style: none;
+}
+
+.form-section {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 15vw;
+  padding-top: 10px;
+}
+.form-section button {
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border-style: none;
+}
+
+#name {
+  padding: 10px 120px;
+  border-style: none;
+  font-size: 14px;
+}
+
+#email {
+  padding: 10px 40px;
+  border-style: none;
+  font-size: 14px;
+}
+
+#button-icon {
+  border-radius: 50%;
+  background-color: white;
+  color: green;
+  font-size: 15px;
+}
