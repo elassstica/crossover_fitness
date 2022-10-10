@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* section 1 Manuela */
 
 /* section 2 Simran */
@@ -108,5 +114,186 @@
     width: 820px;
 }
 /* section 3 Mike */
+.conatiner-mike {
+  background-color: #fe634f;
+  width: 100%;
+  height: 1100px;
+  font-family: sans-serif;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+  height: 100%;
+}
+
+.upper-row {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+}
+
+.u-left-card {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ul-image-container {
+  height: 50%;
+  background-image: url(./images/life-style.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.ul-text-container {
+  height: 50%;
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+  padding-top: 8%;
+}
+
+.ul-text-container > * {
+  margin: 0 auto;
+  width: 80%;
+  line-height: 1.4;
+  font-size: 13px;
+}
+
+.ul-text-container h2 {
+  color: #a2ca29;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.ul-text-container h5 {
+  color: #fe634f;
+  text-transform: uppercase;
+}
+
+.u-right-card {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ur-image-container {
+  height: 50%;
+  background-image: url(./images/Summer-of-fun.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.ur-text-container {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 4%;
+  height: 50%;
+  background-color: #a2ca29;
+  color: white;
+  text-align: left;
+}
+
+.ur-text-container > * {
+  margin: 0 auto;
+  width: 90%;
+  line-height: 1.4;
+  font-size: 13px;
+}
+
+.ur-text-container h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.lower-row {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+}
+
+.l-left-card {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+
+.ll-image-container {
+  height: 50%;
+  background-image: url(./images/get-innvolved-your-self.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.ll-text-container {
+  height: 50%;
+  padding-top: 4%;
+}
+
+.ll-text-container > * {
+  padding-left: 5%;
+  width: 90%;
+  line-height: 1.4;
+  font-size: 13px;
+}
+
+.ll-text-container h2 {
+  color: #a2ca29;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.ll-text-container h5 {
+  color: #fe634f;
+  text-transform: uppercase;
+}
+
+.l-right-card {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.lr-image-container {
+  height: 50%;
+  background-image: url(./images/eating-habits.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.lr-text-container {
+  height: 50%;
+  background-color: #a2ca29;
+  color: white;
+  padding-top: 8%;
+}
+
+.lr-text-container > * {
+  padding-left: 8%;
+  width: 80%;
+  line-height: 1.4;
+  font-size: 13px;
+}
+
+.lr-text-container h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.lr-text-container h5 {
+  text-transform: uppercase;
+  font-size: 18px;
+}
 
 /* section 4 Niklas */
