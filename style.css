@@ -11,7 +11,7 @@
     background-color: #a2ca28;
 }
 .fitness_first .container {
-    width: 1200px;
+    width: 80%;
     padding-top: 80px;
     margin: 0 auto;
 }
@@ -40,7 +40,7 @@
     color: white;
 }
 .fitness_first .fitness_inner {
-    height: 435px;
+    height: 470px;
 }
 .fitness_first .fitness_inner .fitness_inner_part1 {
     display: flex;
@@ -48,7 +48,7 @@
 }
 .fitness_first .fitness_inner .fitness_inner_part1 .fitness_inner_font {
     background-color: white;
-    height: 435px;
+    height: 470px;
 }
 .fitness_first .fitness_inner .fitness_inner_part1 .fitness_inner_font p {
     color: black;
@@ -113,7 +113,7 @@
 
 .fitness_img_part .active .main_img {
     width: 820px;
-    height: 435px;
+    height: 470px;
 }
 /* section 3 Mike */
 .conatiner-mike {
