@@ -1,10 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* section 1 Manuela */
 
 /* section 2 Simran */
+.fitness_first {
+    background-color: #a2ca28;
+}
+.fitness_first .container {
+    width: 1200px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+.fitness_first .container .row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+.fitness_first .container .row .font {
+    width: 250px;
+    color: white;
+}
+.fitness_first .container .row .font h3 {
+    font-size: 25px;
+}
+.fitness_first .container .row .font .explore-arrow {
+    display: flex;
+    align-items: center;
+}
+.fitness_first .container .row .font .explore-arrow img {
+    height: 8px;
+    width: 15px;
+}
+.fitness_first .container .row .font .explore-arrow p {
+    padding-right: 10px;
+    color: white;
+}
+.fitness_first .fitness_inner {
+    height: 431px;
+}
+.fitness_first .fitness_inner .fitness_inner_part1 {
+    display: flex;
+    text-align: center;
+}
+.fitness_first .fitness_inner .fitness_inner_part1 .fitness_inner_font {
+    background-color: white;
+}
+.fitness_first .fitness_inner .fitness_inner_part1 .fitness_inner_font p {
+    color: black;
+    line-height: 1.3;
+}
+.fitness_first .fitness_inner .fitness_inner_part1 .fitness_inner_font .inner {
+    padding: 50px;
+}
+.fitness_first .fitness_inner .fitness_inner_part1 .fitness_inner_font .inner a {
+    color: #a2ca28;
+}
+.fitness_first .fitness_inner .fitness_inner_part1 .fitness_inner_font span {
+    padding-top: 20px;
+    color: #fd634e;
+}
+.fitness_first .fitness_inner .fitness_inner_part1 .fitness_inner_font h3 {
+    color: #a2ca28;
+    font-size: 25px;
+}
+.fitness_img_part .active {
+    position: relative;
+}
+.fitness_img_part .active_font_img {
+    bottom: 40px;
+    position: absolute;
+    right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.fitness_img_part .active_font_img h4 {
+    color: #fd634e;
+    padding-right: 5px;
+}
+.fitness_img_part .active_font_img span {
+    color: #ffffff;
+    padding-right: 10px;
+}
+.fitness_img_part .active_font_img img {
+    height: 25px;
+}
+.fitness_img_part .active_font_img_second {
+    bottom: 40px;
+    position: absolute;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fitness_img_part .active_font_img_second h4 {
+    color: #ffffff;
+    padding-right: 5px;
+}
+.fitness_img_part .active_font_img_second span {
+    color: #ffffff;
+    padding-right: 10px;
+}
+.fitness_img_part .active_font_img_second img {
+    height: 25px;
+}
+
+.fitness_img_part .active .main_img {
+    width: 820px;
+}
 /* section 3 Mike */
+.conatiner-mike {
+  background-color: #fe634f;
+  width: 100%;
+  height: 1100px;
+  font-family: sans-serif;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+  height: 100%;
+}
+
+.upper-row {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+}
+
+.u-left-card {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ul-image-container {
+  height: 50%;
+  background-image: url(./images/life-style.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.ul-text-container {
+  height: 50%;
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+  padding-top: 8%;
+}
+
+.ul-text-container > * {
+  margin: 0 auto;
+  width: 80%;
+  line-height: 1.4;
+  font-size: 13px;
+}
+
+.ul-text-container h2 {
+  color: #a2ca29;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.ul-text-container h5 {
+  color: #fe634f;
+  text-transform: uppercase;
+}
+
+.u-right-card {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ur-image-container {
+  height: 50%;
+  background-image: url(./images/Summer-of-fun.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.ur-text-container {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 4%;
+  height: 50%;
+  background-color: #a2ca29;
+  color: white;
+  text-align: left;
+}
+
+.ur-text-container > * {
+  margin: 0 auto;
+  width: 90%;
+  line-height: 1.4;
+  font-size: 13px;
+}
+
+.ur-text-container h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.lower-row {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+}
+
+.l-left-card {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+
+.ll-image-container {
+  height: 50%;
+  background-image: url(./images/get-innvolved-your-self.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.ll-text-container {
+  height: 50%;
+  padding-top: 4%;
+}
+
+.ll-text-container > * {
+  padding-left: 5%;
+  width: 90%;
+  line-height: 1.4;
+  font-size: 13px;
+}
+
+.ll-text-container h2 {
+  color: #a2ca29;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.ll-text-container h5 {
+  color: #fe634f;
+  text-transform: uppercase;
+}
+
+.l-right-card {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.lr-image-container {
+  height: 50%;
+  background-image: url(./images/eating-habits.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.lr-text-container {
+  height: 50%;
+  background-color: #a2ca29;
+  color: white;
+  padding-top: 8%;
+}
+
+.lr-text-container > * {
+  padding-left: 8%;
+  width: 80%;
+  line-height: 1.4;
+  font-size: 13px;
+}
+
+.lr-text-container h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.lr-text-container h5 {
+  text-transform: uppercase;
+  font-size: 18px;
+}
 
 /* section 4 Niklas */
+
 
 .background-color {
   background-color: #fe634e;
@@ -110,3 +403,4 @@
   color: green;
   font-size: 15px;
 }
+
