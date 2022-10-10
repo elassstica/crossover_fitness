@@ -1,7 +1,112 @@
 /* section 1 Manuela */
 
 /* section 2 Simran */
+.fitness_first {
+    background-color: #a2ca28;
+}
+.fitness_first .container {
+    width: 1200px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+.fitness_first .container .row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+.fitness_first .container .row .font {
+    width: 250px;
+    color: white;
+}
+.fitness_first .container .row .font h3 {
+    font-size: 25px;
+}
+.fitness_first .container .row .font .explore-arrow {
+    display: flex;
+    align-items: center;
+}
+.fitness_first .container .row .font .explore-arrow img {
+    height: 8px;
+    width: 15px;
+}
+.fitness_first .container .row .font .explore-arrow p {
+    padding-right: 10px;
+    color: white;
+}
+.fitness_first .fitness_inner {
+    height: 431px;
+}
+.fitness_first .fitness_inner .fitness_inner_part1 {
+    display: flex;
+    text-align: center;
+}
+.fitness_first .fitness_inner .fitness_inner_part1 .fitness_inner_font {
+    background-color: white;
+}
+.fitness_first .fitness_inner .fitness_inner_part1 .fitness_inner_font p {
+    color: black;
+    line-height: 1.3;
+}
+.fitness_first .fitness_inner .fitness_inner_part1 .fitness_inner_font .inner {
+    padding: 50px;
+}
+.fitness_first .fitness_inner .fitness_inner_part1 .fitness_inner_font .inner a {
+    color: #a2ca28;
+}
+.fitness_first .fitness_inner .fitness_inner_part1 .fitness_inner_font span {
+    padding-top: 20px;
+    color: #fd634e;
+}
+.fitness_first .fitness_inner .fitness_inner_part1 .fitness_inner_font h3 {
+    color: #a2ca28;
+    font-size: 25px;
+}
+.fitness_img_part .active {
+    position: relative;
+}
+.fitness_img_part .active_font_img {
+    bottom: 40px;
+    position: absolute;
+    right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.fitness_img_part .active_font_img h4 {
+    color: #fd634e;
+    padding-right: 5px;
+}
+.fitness_img_part .active_font_img span {
+    color: #ffffff;
+    padding-right: 10px;
+}
+.fitness_img_part .active_font_img img {
+    height: 25px;
+}
+.fitness_img_part .active_font_img_second {
+    bottom: 40px;
+    position: absolute;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fitness_img_part .active_font_img_second h4 {
+    color: #ffffff;
+    padding-right: 5px;
+}
+.fitness_img_part .active_font_img_second span {
+    color: #ffffff;
+    padding-right: 10px;
+}
+.fitness_img_part .active_font_img_second img {
+    height: 25px;
+}
+
+.fitness_img_part .active .main_img {
+    width: 820px;
+}
 /* section 3 Mike */
 
 /* section 4 Niklas */
